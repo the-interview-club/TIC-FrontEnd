@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.one-line{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+mark.red{
+  color: red;
+  background-color: white
+}
+
+/* mark.blue{
+  color: DodgerBlue;
+  background-color: white
+} */
+
