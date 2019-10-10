@@ -5,13 +5,13 @@ const Intro = props => {
 
     return (
         <div>
-            <h1>Hey, job search is<h1 class="emphasize">painful?</h1> We got you</h1>
-            <p class="one-line">Here The Interview Club is to help you to nail your <mark class="red">right</mark> job <mark class="red">faster</mark>.</p>
-            <div class="btn">
-                <Link to='/signup' class="make-btn"
+            <h1>Hey, job search is <mark className="emphasize">painful?</mark> We got you</h1>
+            <p className="one-line">Here The Interview Club is to help you to nail your <mark className="red">right</mark> job <mark className="red">faster</mark>.</p>
+            <div className="btn">
+                <Link to='/signup' className="make-btn"
                 // onClick={props.history.push('/signup')}
                 >Sign Up</Link>
-                <Link to='/login' class="make-btn"
+                <Link to='/login' className="make-btn"
                 // onClick={props.history.push('/login')}
                 >Log In</Link>
             </div>

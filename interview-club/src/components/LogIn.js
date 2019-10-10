@@ -17,14 +17,12 @@ const LogIn = () => {
                 <input 
                     stype="text" 
                     name="email" 
-                    placeholder="josh@gmail.com"
                     value={user.email}
                     onChange={handleChange}
                     />
                 <input 
                     stype="password" 
                     name="password" 
-                    placeholder="123abc@#"
                     value={user.password}
                     onChange={handleChange}
                 />
